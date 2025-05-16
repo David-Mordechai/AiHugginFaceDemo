@@ -15,6 +15,6 @@ huggingface-cli login (right click to paste the key)
 ## Install Cuda
 https://developer.nvidia.com/cuda-downloads
 
-## in virtual enveronment instal torch to use cuda (cu128 => this is the version of your cuda)
+## in virtual enveronment install torch to use cuda (cu128 => this is the version of your cuda)
 ## to check you'r version after you install cude run in new terminal => nvcc --version
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
